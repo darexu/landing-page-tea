@@ -1,0 +1,40 @@
+.intro {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(115, 171, 217, 0), rgba(34, 199, 89, 0.3) 70%),
+                    url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+
+  color: #fff;
+  padding: 200px;
+  margin-top: 20px;
+}
+
+.intro-logo {
+  width: 200px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.intro .text-lead {
+  color: #d3d3d3;
+  max-width: 70%;
+  margin: 0 15%;
+}
+
+@media (max-width: 922px) {
+  .intro-logo {
+    width: 150px;
+  }
+  .intro {
+    padding: 150px;
+  }
+}
+
+@media (max-width: 750px) {
+  .intro {
+    padding: 50px;
+  }
+}

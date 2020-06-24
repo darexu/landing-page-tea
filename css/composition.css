@@ -1,0 +1,18 @@
+.composition {
+  padding: 40px 0;
+}
+
+.list-wrap {
+  margin: 0 auto;
+  width: 350px
+}
+
+.components li {
+  margin-bottom: 20px;
+  list-style: inside;
+  font-size: 25px;
+}
+
+.composition .title-small {
+  margin-bottom: 30px;
+}

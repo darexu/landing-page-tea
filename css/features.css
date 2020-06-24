@@ -1,0 +1,21 @@
+.features {
+  padding: 40px 0;
+  background: #f0fff5;
+}
+
+.features-item {
+  padding: 10px;
+}
+
+.features-item:hover {
+  color: #24bf60;
+  transition: all 0.2s ease-out;
+}
+
+.features-icon {
+  height: 130px;
+}
+
+.features-img {
+	max-width: 100px;
+}
