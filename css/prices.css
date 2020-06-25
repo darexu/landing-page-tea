@@ -34,7 +34,7 @@
   display: block;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 750px) {
   .price-item,
   .item-main {
     margin-top: 20px;
